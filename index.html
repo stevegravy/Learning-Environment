@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+
+<body>
+  
+  
+    <h1>This is a small documentation on Markdown</h1>
+    <h2>Introduction to Markdown</h2>
+    <h3>Philosophy of Markdown</h3>
+    <p>
+        Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
+        Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instruction$
+        While Markdown’s syntax has been influenced by several existing text-to-HTML filters — including Setext, atx, Textile, reStructuredText, Grutatext, and EtText — the single biggest source of
+        inspiration for Markdown’s syntax is the format of plain text email.
+        To this end, Markdown’s syntax is comprised entirely of punctuation characters, which punctuation characters have been carefully chosen so as to look like what they mean. E.g., asterisks around a
+        word actually look like <em>emphasis</em>. Markdown lists look like, well, lists. Even blockquotes look like quoted passages of text, assuming you’ve ever used email.
+    </p>
+    <h3>Inline HTML</h3>
+    <p>
+        Markdown’s syntax is intended for one purpose: to be used as a format for writing for the web.
+        Markdown is not a replacement for HTML, or even close to it. Its syntax is very small, corresponding only to a very small subset of HTML tags. The idea is not to create a syntax that makes it easier
+        to insert HTML tags. In my opinion, HTML tags are already easy to insert. The idea for Markdown is to make it easy to read, write, and edit prose. HTML is a publishing format; Markdown is a writing
+        format. Thus, Markdown’s formatting syntax only addresses issues that can be conveyed in plain text. <br/>
+        For any markup that is not covered by Markdown’s syntax, you simply use HTML itself. There’s no need to preface it or delimit it to indicate that you’re switching from Markdown to HTML; you
+        just use the tags.<br/>
+        The only restrictions are that block-level HTML elements e.g. "div" "table", "pres", "p", etc.  must be separated from surrounding content by blank lines, and the start and end tags of the block
+        should not be indented with tabs or spaces. Markdown is smart enough not to add extra (unwanted) "p" tags around HTML block-level tags. <br/>
+        Note that Markdown formatting syntax is not processed within block-level HTML tags. E.g., you can’t use Markdown-style <em>emphasis</em> inside an HTML block.
+        Span-level HTML tags — e.g. "span", "cite", or "del" — can be used anywhere in a Markdown paragraph, list item, or header. If you want, you can even use HTML tags instead of Markdown formatting; e.g.
+        if you’d prefer to use HTML "a" or "img" tags instead of Markdown’s link or image syntax, go right ahead. <br/>
+        Unlike block-level HTML tags, Markdown syntax is processed within span-level tags.
+    </p>
+    <p>
+        <a href="CheatSheet-Part1.md">Text formatting</a>
+        <a href="Cheatysheat-part-3.md">Images</a>
+        <a href="">Lists</a>
+    </p>
+    <h3>Markdown text formatting</h3>
+    <h2>Headers</h2>
+
+    <p>
+        To create different size of Headers you must add from one to six 'number sign' (#).
+        One 'number sign' being the biggest and six the smallest.
+    </p>
+    <h2>Emphasis</h2>
+    <h3>Italics</h3>
+    <p>
+        To have a word in italics you must enclose it with asterisks or underscore.
+    </p>
+    <h3>bold</h3>
+    <p>
+        To have a word in bold you must enclose it with strong asterisks or unserscore.
+    </p>
+    <h3>Scratched</h3>
+    <p>
+        To have a word scratched you must enclose it with two tildes (~)
+    </p>
+    <p>
+        # If you want to embed images
+    </p>
+    <h2>This is how to do it :</h2>
+    <p>
+       Format:<img src="url" alt="Alt Text" />
+                <img src="PNG_transparency_demonstration_1.png" alt="Dés lancés" /></p>
+    <h3>To add a link in a text aréa:</h3>
+    <ol>
+        <li>step 1</li>
+            <ol>
+                <li>Search a link: https://fr.wikipedia.org/wiki/Guns<em>N</em>Roses</li>
+                <li>Put it in the text area.</li>
+            </ol>
+        <li>Create an exemple:
+            <ul>
+                <li>1.[GnR] (https://fr.wikipedia.org/wiki/Guns<em>N</em>Roses) of 90's is the best rock band in the world!</li>
+            </ul>
+    </ol>
+
+  
+</body>
+</html>
