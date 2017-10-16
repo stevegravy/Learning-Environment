@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%;;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+/*--------Premier block--------------*/
+article .ligne_haut{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    align-content: center;
+    background-image:linear-gradient(to left, white, rgb(219, 16, 16));
+    padding-top: 0;
+    margin-top: 20px;
+}
+
+article .ligne_haut .texte_haut{
+    align-self: center;
+    width: 33%;
+    padding: 20px;
+}
+
+article .ligne_haut .image_1{
+    align-self: center;
+    width: 33%;
+    margin: 10px;
+}
+
+article .ligne_haut .image_2{
+    align-self: center;
+    width:33%;
+    margin: 10px;
+}
+/*--------FIN Premier block--------------*/
+
+h1{
+    font-family: 'Frijole', cursive;
+    padding:10px;
+}
+
+p{
+    font-family: 'Coustard', serif;
+}
+
+/*--------Deuxième block--------------*/
+article .ligne_medium{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    align-content: center;
+    background-color:white;
+    padding-top: 20px;
+}
+
+article .ligne_medium .elephant{
+    align-self: center;
+    width: 33%;
+    margin: 10px;
+    background-size: contain;
+}
+
+article .ligne_medium .text{
+    align-self: center;
+    width: 33%;
+    margin: 10px;
+}
+
+    /*----block text dans le deuxième block-----*/
+    article .ligne_medium .text .texte_haut{
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+     article .ligne_medium .text .texte_bas{
+        padding: 10px;
+        border-width:3px;
+        border-color:rgb(219, 16, 16);
+        border-style: double; 
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    article .ligne_medium .text .texte_bas:hover{
+        padding: 10px;
+        border-width: 6px;
+        border-color: rgb(219, 16, 16);
+        border-style: double; 
+        border-radius: 10px;
+        background-color: rgb(255, 11, 11);
+        text-align: center;
+    }    
+    /*----FIN block text dans le deuxième block-----*/
+
+.graph{
+    width: 100%;
+}
+
+.graph img{
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+}
+
+/*--------FIN Deuxième block--------------*/
+
+/*--------Début Block contact-----------------*/
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-content: center;
+    width: 100%;
+    background-color: rgb(151, 161, 177);
+}
+
+.contact .carte{
+    margin: 10px;
+}
+.carte img{
+    text-align: center;
+}
+
+iframe{
+    text-align: right;
+}
+
+.contact .text_contact{
+    margin: 10px;
+    text-align: left;
+    align-self: center;
+    width: 50%;
+}
+/*--------fin Block contact-----------------*/
+
+/*----------Début block citation-------------*/
+.citation{
+background-color: rgb(151, 161, 177);  
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top: 20px;
+}
+
+.citation p{
+    text-align: center;
+    font-size: 2em;
+}
+
+article .citation blockquote{
+    font-style: italic;
+    color: #3c3c3c;
+    font-size: 2em;
+}
+/*----------Fin block citation-------------*/

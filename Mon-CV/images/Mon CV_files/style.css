@@ -1,0 +1,44 @@
+
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+h2{
+    font-family: 'Questrial', sans-serif;
+    text-transform: uppercase;
+    color: rgb(90, 90, 90);
+}
+
+.main_page .fix{
+    background-color: black;
+    position: fixed; 
+    height: 100%;
+    width: 33%;
+    float: left;
+}
+
+.main_page .fix img{
+    width: 10%;
+}
+
+.main_page .fix .photo_nom_presentation img{
+    width: 50%;
+}
+
+.photo_nom_presentation{
+    width: 100%;
+}
+
+body{
+    background-color: #9d9d9d;
+}
+
+.fix .adresse{
+    width: 100%;    
+}
+
+.main_page{
+    background-color: white;
+}

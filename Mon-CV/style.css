@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+h2{
+    font-family: 'Questrial', sans-serif;
+    text-transform: uppercase;
+    color: rgb(88, 88, 88);
+    border-bottom: 3px solid rgb(88, 88, 88);
+    border-radius: 6px;
+}
+
+.main_page{
+    background-color: white;
+    margin: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.main_page .fix{
+    background-color: black;
+    position: fixed; 
+    height: 100%;
+    width: 33%;
+    float: left;
+    text-align: center;
+    color: white;    
+}
+
+.scroll{
+    padding-left: 35%;
+    margin-top: 0;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+}
+
+.main_page .fix img{
+    width: 10%;
+}
+
+.main_page .fix .photo_nom_presentation img{
+    width: 50%;
+    padding-top: 5%;
+    border-radius: 50%;
+}
+
+.photo_nom_presentation{
+    width: 100%;
+}
+
+body{
+    background-color: #9d9d9d;
+}
+
+.fix .adresse{
+    width: 100%;    
+}
+
+.presentation{
+    text-align: justify;
+    padding: 0% 3% 0% 3%;
+}
+
+.gras{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.reseaux_sociaux{
+    text-align: center;
+}
+
+.facebook{
+    margin-top: 5%;
+}

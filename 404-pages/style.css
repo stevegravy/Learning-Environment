@@ -1,0 +1,35 @@
+body{
+    background color: white;
+    background: url("./images/HiRes.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+h1{
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 7em;
+    
+}
+
+h2, p{
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+h2{
+    font-size: 50px;
+}
+
+p{
+    font-size: 25px; 
+}
+
+a:hover{
+    background-color: rgba(255, 0, 0,1);
+    border-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
