@@ -19,22 +19,30 @@ h2{
 
 .main_page{
     background-color: white;
-    margin: auto;
     margin: 0;
     padding: 0;
+    height: 100%;
+    Display: flex;
+    flex-direction: row;
 }
 
 .main_page .fix{
     background-color: black;
-    position: fixed; 
-    height: 100%;
+    position: fixed;
+    height: auto;
     width: 33%;
-    float: left;
     text-align: center;
     color: white;    
 }
+.presentation{
+    
+}
 
-.scroll{
+.float_icon{
+    float: left;
+}
+
+.main_page .scroll{
     padding-left: 35%;
     margin-top: 0;
     padding-top: 0.5%;
@@ -47,7 +55,7 @@ h2{
 
 .main_page .fix .photo_nom_presentation img{
     width: 50%;
-    padding-top: 5%;
+    padding-top: 10px;
     border-radius: 50%;
 }
 
@@ -76,10 +84,10 @@ body{
     font-style: italic;
 }
 
-.reseaux_sociaux{
-    text-align: center;
-}
-
-.facebook{
-    margin-top: 5%;
+.border_icons{
+    background-color: white;
+    color: black;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 10px;
 }
